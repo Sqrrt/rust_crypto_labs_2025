@@ -1,0 +1,17 @@
+RSA test:
+   Сообщение: This is so secret!
+   Подпись: валидна
+   Сообщение: I change it AHAHA!
+   Подпись: недействительна
+Rabin test:
+   Сообщение: Rabin message with secret!
+   Проверка: сообщение найдено среди корней? true
+   Сообщение: Ooops, I changed it again!
+   Проверка: сообщение найдено среди корней? false
+Cert test:
+   Сертификат создан
+   Сертификат выпущен с ID: ID-8c810701
+   Проверка сертификата: OK
+   Проверка сертификата FAIL
+
+Process finished with exit code 0
