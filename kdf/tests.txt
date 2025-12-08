@@ -1,0 +1,6 @@
+/home/sqrt/.cargo/bin/cargo test --color=always --package kdf --bin kdf tests --profile test --no-fail-fast --config target.x86_64-unknown-linux-gnu.runner=['/home/sqrt/programms/RustRover-2025.2.1/bin/native-helper/intellij-rust-native-helper'] -- --format=json -Z unstable-options --show-output
+Testing started at 21:19 ...
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/main.rs (target/debug/deps/kdf-5af2e9f45ac74f64)
+
+Process finished with exit code 0

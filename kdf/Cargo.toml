@@ -1,0 +1,11 @@
+[package]
+name = "kdf"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pbkdf2 = "0.12"
+hmac = "0.12"
+sha2 = "0.10"
+hkdf = "0.12"
+hex = "0.4.3"
